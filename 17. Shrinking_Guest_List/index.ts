@@ -17,7 +17,7 @@ guest_list.forEach(guest => {
 });
 
 guest_list.splice(0, guest_list.length);
-console.log(guest_list);                                //print empty Array
+console.log(guest_list);                          //print empty Array
 
 
 

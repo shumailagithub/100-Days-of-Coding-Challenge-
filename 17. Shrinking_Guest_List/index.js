@@ -9,17 +9,8 @@ while (guest_list.length > 2) {
 guest_list.forEach(guest => {
     console.log(`Dear ${guest}, you are still invited to the dinner.\t\n`); //print new list with removing one guest
 });
-guest_list.splice(0, guest_list.length);
-console.log(guest_list); //print empty Array
+// guest_list.splice(0, guest_list.length);
+// console.log(guest_list);          
+console.log(guest_list.length);
 export {};
-// let guests : string[] = ["Salman", "Hadi", "Rayyan"];    ///List of three guest
-// console.log("Unfortunately, I can only invite two people for dinner.");
-// while (guests.length > 2) {
-//     let removedGuest = guests.pop();
-//     console.log(`Sorry, ${removedGuest}, I can't invite you to dinner.`);
-// }
-// guests.forEach(guest => {
-//     console.log(`Dear ${guest}, you're still invited to dinner.`);
-// });
-// guests.splice(0, guests.length);
-// console.log(guests); // Shows an empty list
+//print empty Array
