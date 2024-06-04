@@ -8,4 +8,5 @@ function describe_city(city, country = "pakistan") {
 describe_city("karachi");
 describe_city("lahore");
 describe_city("london", "ingland");
+console.log(null == undefined);
 export {};
